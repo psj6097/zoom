@@ -1,0 +1,82 @@
+/* 헤더 */
+#top-header {
+  height: 64px;
+  border-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 60px;
+}
+
+#top-header > div {
+  list-style: none;
+  display: flex;
+}
+
+#top-header-reqeset {
+  list-style: none;
+  display: flex;
+}
+
+#top-header-reqeset > li {
+  margin: 0 8px;
+}
+
+/* 로그인 메인 */
+
+body > .border {
+  border-top: 1px solid #8d8989;
+}
+#login-main {
+  display: flex;
+}
+/* 광고 */
+main > #ads {
+  justify-content: center;
+  align-items: center;
+  box-sizing: 1/2;
+  flex-grow: 1;
+  padding: 120px;
+}
+/* 로그인 */
+main > form > p {
+  line-height: 40px;
+  width: 320px;
+}
+
+main > #login {
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  padding: 80px;
+}
+
+main > form > p > input {
+  margin: 10px 0;
+}
+main > form > label {
+  padding: 0 30px;
+}
+
+/* 비밀번호 찾기 */
+.passward-loss {
+  display: flex;
+  justify-content: space-between;
+}
+
+main > form > button {
+  width: 320px;
+  height: 60px;
+}
+
+form > div > .border {
+  border-top: 1px solid #8d8989;
+  display: grid;
+}
+
+form > p > button {
+  margin-top: 20px;
+  width: 60px;
+  height: 60px;
+  margin: 7px;
+}
